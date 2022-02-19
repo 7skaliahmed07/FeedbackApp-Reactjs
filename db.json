@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 10,
+      "text": "This is feedback item 1 coming from the backend"
+    },
+    {
+      "id": 2,
+      "rating": 8,
+      "text": "This is feedback item 2 coming from the backend"
+    },
+    {
+      "text": "This is feedback item 3 coming from the backend",
+      "rating": 10,
+      "id": 3
+    },
+    {
+      "text": "Well now change the Square to be a function component.",
+      "rating": "9",
+      "id": 5
+    }
+  ]
+}
